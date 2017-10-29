@@ -34,7 +34,7 @@ function regist($post){
 		"user_id" => (int)$uid,
 		"name"    => $post['name'],
 		"session" => $session,
-		"expire"  => time() + $session_expire)
+		"expire"  => time() + $session_expire
 	];
 	return $result;
 }
